@@ -1,17 +1,13 @@
-📌 Project Title
 TotalFit – AI-Powered Athlete Management Platform
 
-🧾 Description
 A centralized platform designed for athletes, coaches, and sports organizations to optimize performance, prevent injuries, personalize training, and manage finances and career growth. Built for the Google Solution Challenge 2025 using AI and cloud-native technologies.
 
-⚙️ Features
 Real-time performance analytics dashboard
 AI-driven injury prediction using Google Vertex AI
 Personalized workout & nutrition plans
 Training expense and sponsorship tracking
 AI-powered mentorship & career planning
 
-🧠 Tech Stack
 Frontend: React.js, Tailwind CSS, Flutter (planned)
 Backend: Node.js, Express.js
 Database: Firebase Firestore, Supabase (PostgreSQL)
@@ -20,19 +16,16 @@ Authentication: Firebase Auth, OAuth 2.0
 Security: Google Cloud IAM, AES Encryption
 Hosting: Firebase Hosting, Vercel
 
-🔐 Security Implementation
 OAuth 2.0 for secure access control
 Role-based authorization with Firebase & IAM
 AES encryption for user and health data
 API security with middleware validation
 
-🧩 Architecture Overview
 Frontend communicates with a secured backend API
 Backend fetches and stores data in Firebase/Supabase
 Vertex AI used for running ML models on athlete data
 Real-time updates via Firebase/Firestore listeners
 
-🖥️ How to Run (Local Setup Steps)
 Clone repo
 Install dependencies
 Add .env files for Firebase/Supabase config
