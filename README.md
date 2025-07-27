@@ -1,6 +1,6 @@
 # 🏋️‍♂️ TotalFit – AI-Powered Athlete Management Platform
 
-TotalFit is a centralized, AI-driven platform built for athletes, coaches, and sports organizations to track performance, prevent injuries, personalize training, manage finances, and plan athletic careers. Developed as part of the **Google Solution Challenge 2025**, TotalFit aligns with UN SDG #3 – *Good Health & Well-being*.
+TotalFit is a centralized, AI-driven platform built for athletes, coaches, and sports organizations to track performance, prevent injuries, personalize training, manage finances, and plan athletic careers.
 
 ---
 
@@ -39,22 +39,6 @@ TotalFit is a centralized, AI-driven platform built for athletes, coaches, and s
 - Backend syncs user data between Firestore and Supabase
 - Vertex AI processes athlete data to deliver predictions and personalized plans
 - Real-time updates handled via Firebase listeners and Supabase triggers
-
----
-
-## 👨‍💻 Team & Roles
-
-- **Aum Panchal** – Security & Integration Engineer  
-  - OAuth 2.0 setup, IAM configuration, Firebase/Supabase sync, API security
-- **Team Member 2** – Frontend Developer (React.js, UI/UX)
-- **Team Member 3** – AI Lead (Vertex AI, BigQuery)
-
----
-
-## 🏆 Event
-
-**Google Solution Challenge 2025**  
-Aligned with **UN Sustainable Development Goal #3**: *Good Health & Well-being*
 
 ---
 
