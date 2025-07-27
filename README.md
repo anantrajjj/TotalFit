@@ -1,32 +1,87 @@
-TotalFit – AI-Powered Athlete Management Platform
+# 🏋️‍♂️ TotalFit – AI-Powered Athlete Management Platform
 
-A centralized platform designed for athletes, coaches, and sports organizations to optimize performance, prevent injuries, personalize training, and manage finances and career growth. Built for the Google Solution Challenge 2025 using AI and cloud-native technologies.
+TotalFit is a centralized, AI-driven platform built for athletes, coaches, and sports organizations to track performance, prevent injuries, personalize training, manage finances, and plan athletic careers. Developed as part of the **Google Solution Challenge 2025**, TotalFit aligns with UN SDG #3 – *Good Health & Well-being*.
 
-Real-time performance analytics dashboard
-AI-driven injury prediction using Google Vertex AI
-Personalized workout & nutrition plans
-Training expense and sponsorship tracking
-AI-powered mentorship & career planning
+---
 
-Frontend: React.js, Tailwind CSS, Flutter (planned)
-Backend: Node.js, Express.js
-Database: Firebase Firestore, Supabase (PostgreSQL)
-AI/ML: Google Vertex AI, BigQuery
-Authentication: Firebase Auth, OAuth 2.0
-Security: Google Cloud IAM, AES Encryption
-Hosting: Firebase Hosting, Vercel
+## 🚀 Features
 
-OAuth 2.0 for secure access control
-Role-based authorization with Firebase & IAM
-AES encryption for user and health data
-API security with middleware validation
+- 📊 Real-time performance analytics and dashboards
+- 🧠 Injury prediction using historical data via Google Vertex AI
+- 🏋️ Personalized workout and nutrition plans
+- 💰 Financial tracking for training, sponsorships, and earnings
+- 🗺️ Career planning and AI-based mentorship suggestions
 
-Frontend communicates with a secured backend API
-Backend fetches and stores data in Firebase/Supabase
-Vertex AI used for running ML models on athlete data
-Real-time updates via Firebase/Firestore listeners
+---
 
-Clone repo
-Install dependencies
-Add .env files for Firebase/Supabase config
-Run frontend and backend servers
+## 🧠 Tech Stack
+
+- **Frontend:** React.js, Tailwind CSS, Flutter (planned for mobile)
+- **Backend:** Node.js, Express.js
+- **Database:** Firebase Firestore, Supabase (PostgreSQL)
+- **Authentication & Security:** Firebase Auth, OAuth 2.0, Google Cloud IAM, AES encryption
+- **AI/ML:** Google Vertex AI, BigQuery
+- **Hosting:** Firebase Hosting, Vercel
+
+---
+
+## 🔐 Security Highlights
+
+- Implemented secure OAuth 2.0 authentication and Google Cloud IAM for access control
+- Used AES encryption to secure sensitive athlete and health data
+- Protected APIs with middleware-level validation and role-based access
+
+---
+
+## 🧩 Architecture Overview
+
+- Frontend connects to a secure backend API
+- Backend syncs user data between Firestore and Supabase
+- Vertex AI processes athlete data to deliver predictions and personalized plans
+- Real-time updates handled via Firebase listeners and Supabase triggers
+
+---
+
+## 👨‍💻 Team & Roles
+
+- **Aum Panchal** – Security & Integration Engineer  
+  - OAuth 2.0 setup, IAM configuration, Firebase/Supabase sync, API security
+- **Team Member 2** – Frontend Developer (React.js, UI/UX)
+- **Team Member 3** – AI Lead (Vertex AI, BigQuery)
+
+---
+
+## 🏆 Event
+
+**Google Solution Challenge 2025**  
+Aligned with **UN Sustainable Development Goal #3**: *Good Health & Well-being*
+
+---
+
+## 📦 Project Structure
+totalfit/
+├── client/ # React frontend
+├── server/ # Node.js backend
+├── firebase/ # Firebase config and rules
+├── supabase/ # Supabase functions and config
+├── ai-models/ # Vertex AI model handlers
+├── public/ # Static assets
+└── README.md
+
+
+---
+
+## 🛠️ How to Run Locally
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/totalfit.git
+   cd totalfit
+cd client && npm install
+cd ../server && npm install
+# Start frontend
+cd client && npm start
+
+# In a new terminal, start backend
+cd server && npm run dev
+
